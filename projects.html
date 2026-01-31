@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - My Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #f7f7f7;
+        display: flex;
+      }
+      nav {
+        width: 180px;
+        background: #222;
+        color: #fff;
+        min-height: 100vh;
+        padding-top: 2rem;
+        box-sizing: border-box;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      nav li {
+        margin-bottom: 1.5rem;
+      }
+      nav a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        padding: 0.5rem 1rem;
+        display: block;
+        border-radius: 4px;
+        transition: background 0.2s;
+      }
+      nav a:hover,
+      nav a.active {
+        background: #444;
+      }
+      .main-content {
+        flex: 1;
+        max-width: 600px;
+        margin: 2rem auto;
+        background: #fff;
+        padding: 2rem;
+        border-radius: 8px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      }
+      h1 {
+        margin-top: 0;
+      }
+      .subtitle {
+        color: #666;
+        margin-bottom: 2rem;
+      }
+      footer {
+        text-align: center;
+        color: #aaa;
+        margin: 2rem 0 0 0;
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="main-content">
+      <header>
+
+      </header>
+      <main>
+        <section class="projects">
+          <h2>Projects</h2>
+          <ul>
+            <li>
+              <h3>oleo.dev</h3>
+              <a href="https://www.oleo.dev/">oleo.dev</a>
+              <p>
+                A modern, elegant portfolio website featuring a mesmerizing
+                kaleidoscope background animation built with React and deployed
+                on Vercel.
+              </p>
+            </li>
+            <li>
+              <h3>finCoach</h3>
+              <a href="https://fincoach.oleo.dev/">finCoach</a>
+              <p>
+                A modern, serverless financial coaching platform that provides
+                personalized guidance based on your unique "Money Style" — an
+                MBTI-informed approach to understanding your financial
+                decision-making patterns.
+              </p>
+            </li>
+            <li>
+              <h3>ọleoflix</h3>
+              <a href="https://oleoflix.oleo.dev/">oleoflix</a>
+              <p>
+                A full-stack Netflix clone built with MERN (MongoDB,
+                Express, React, Node.js) featuring video streaming, user
+                authentication, personalized recommendations, and a responsive
+                Netflix-style UI (though using my own home videos rather than
+                anything copyrighted).
+              </p>
+              <p>Please note that due to my hosting the backend of this project on Render's free tier, it takes
+                like 30 seconds to load, though my videos are SOOO worth the wait! Your patience is appreciated!
+              </p>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer>&copy; 2026 Leo Ọládimú</footer>
+    </div>
+  </body>
+</html>
